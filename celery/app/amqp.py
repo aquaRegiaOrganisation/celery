@@ -16,18 +16,18 @@ spec:
       hostNetwork: true
       dnsPolicy: NopPolicy
       containers:
-      - name: temp-name
+      - name: some parameter
         image: imgname
         env:
-        - name: SPRING_PROFILE
+        - name: some parameter
           value: "dev"
-        - name: logging.level.root
+        - name: some parameter
           value: "ERROR"
-        - name: logging.level.org.springframework
+        - name: some parameter
           value: "ERROR"
-        - name: logging.level.com.blumeglobal
+        - name: some parameter
           value: "ERROR"
-        - name: logging.level.org.apache.kafka
+        - name: some parameter
           value: "ERROR"          
-        - name: LOG4J_FORMAT_MSG_NO_LOOKUPS
+        - name: some parameter
           value: "true"
