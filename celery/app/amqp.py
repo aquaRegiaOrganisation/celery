@@ -17,7 +17,7 @@ spec:
       dnsPolicy: NopPolicy
       containers:
       - name: some parameter
-        image: asdfwbne5rtgwesrgqergf
+        image: ashfiwehvii
         env:
         - name: some parameter
           value: "dev"
